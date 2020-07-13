@@ -101,10 +101,8 @@
     padding-top: 15px !important;
     height: 48px;
 }
-p{
-    margin-left: 312px;
-}
-#inputPassword,#inputEmail{
+
+#inputPassword,#inputUsername{
   padding-left: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 16px;
 }

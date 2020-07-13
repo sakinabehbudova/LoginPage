@@ -1,24 +1,24 @@
 <div id="header">
-    <form class="form-signin">
-        <div class="text-center mb-4">
-            <i class="fa fa-user-circle-o fa-5x"></i>
+  <form class="form-signin">
+    <div class="text-center mb-4">
+      <i class="fa fa-user-circle-o fa-5x"></i>
 
-          <br> <br>
-          <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
-        </div>
-  
-        <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-          <label for="inputEmail">Email address</label>
-        </div>
-  
-        <div class="form-label-group">
-          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-          <label for="inputPassword">Password</label>
-        </div>
-        <br>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-       <br>
-       <p>or <a href="">Sign up</a></p>
-      </form>
+      <br> <br>
+      <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+    </div>
+
+    <div class="form-label-group">
+      <input type="text" name="username" [(ngModel)]="username" id="inputUsername" class="form-control"
+        placeholder="" required autofocus>
+      <label for="inputEmail">Username</label>
+    </div>
+
+    <div class="form-label-group">
+      <input type="password" name="password" [(ngModel)]="password" id="inputPassword" class="form-control"
+        placeholder="" required>
+      <label for="inputPassword">Password</label>
+    </div>
+    <br>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  </form>
 </div>
